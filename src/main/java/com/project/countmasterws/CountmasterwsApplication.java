@@ -1,4 +1,4 @@
-package com.project.countmasterws.countmasterws;
+package com.project.countmasterws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
