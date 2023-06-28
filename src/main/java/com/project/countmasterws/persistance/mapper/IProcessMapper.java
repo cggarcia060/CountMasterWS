@@ -18,20 +18,20 @@ public interface IProcessMapper {
      * @param process objeto a trnsformar
      * @return objeto retornado
      */
-    ProcessPojo toProcesoPojo(Process process);
+    ProcessPojo toProcessPojo(Process process);
 
     /**
      * conviente un pojo a entidad de proceso
      * @param processPojo objeto a transformar
      * @return objeto retornado
      */
-    Process toProceso(ProcessPojo processPojo);
+    Process toProcess(ProcessPojo processPojo);
 
     /**
      * retorna una lista de procesos transformado a pojo de una lista de entidades
      * @param process objeto transformado
      * @return objeto retornado
      */
-    List<ProcessPojo> toProcesosPojo(List<Process> process);
+    List<ProcessPojo> toProcessPojo(List<Process> process);
 
 }
